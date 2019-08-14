@@ -1,0 +1,97 @@
+body {
+  background-color: #222;
+  color: #333;
+  font-family: Courier, monospace;
+  padding: 0;
+  margin: 0 auto;
+  top: 0;
+  max-width: 1024px;
+  min-width: 320px
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+main {
+  background-color: #eee;
+  margin: auto;
+  padding: 10px 2%;
+  width: 80%;
+}
+
+.container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+}
+
+.cell-01 {
+  height: 0;
+  text-align: center;
+  padding: 0 1vw 100% 1vw;
+  background-color: pink;
+}
+
+.cell-02 {
+  height: 0;
+  padding: 0 1vw 100% 1vw;
+  background-color: cyan;
+}
+
+.cell-03 {
+  height: 0;
+  margin: auto;
+  padding-bottom: 100%;
+  grid-column: 1/3;
+  background-color:purple;
+}
+
+/* carousel styles */
+
+
+#carousel{
+  margin:0;
+  padding:0;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.active {
+  display: block;
+}
+
+.button {
+  color: #000;
+  background-color: cyan;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-weight: 800;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+
+#control-prev {
+  float: left;
+  cursor: pointer;
+}
+
+#control-next {
+  float: right;
+  text-align: right;
+  cursor: pointer;
+}
