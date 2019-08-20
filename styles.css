@@ -82,7 +82,6 @@ main {
 
 .cell-07 {
   border: 1px magenta solid;
-
   padding: 2vw;
   letter-spacing: 0.25em;
   text-align: center;
@@ -102,7 +101,7 @@ main {
 }
 
 .cell-07 a:active {
-  color: #fff;
+  color: #eee;
 }
 /* carousel styles */
 #carousel {
